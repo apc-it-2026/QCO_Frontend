@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="12/26/2023 14:11:43" ReportInfo.Modified="12/28/2023 12:05:29" ReportInfo.CreatorVersion="2014.4.8.0">
+  <Dictionary/>
+  <ReportPage Name="Page1" PaperWidth="295" PaperHeight="200">
+    <ReportTitleBand Name="ReportTitle1" Width="1039.5" Height="9.45"/>
+    <PageHeaderBand Name="PageHeader1" Top="13.45" Width="1039.5" Height="75.6">
+      <TextObject Name="Text1" Left="340.2" Top="9.45" Width="349.65" Height="18.9" Text="APACHE Footwear India PVT,LTD." Font="Times New Roman, 15.75pt, style=Bold"/>
+      <TextObject Name="Text2" Left="387.45" Top="37.8" Width="255.15" Height="18.9" Text="Equipment Application Form" Font="Trajan Pro, 12pt, style=Bold"/>
+      <LineObject Name="Line13" Height="75.6" Diagonal="true"/>
+      <LineObject Name="Line14" Left="1039.5" Height="75.6" Diagonal="true"/>
+      <LineObject Name="Line15" Width="1039.5" Diagonal="true"/>
+      <LineObject Name="Line16" Top="75.6" Width="1039.5" Diagonal="true"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="93.05" Width="1039.5" Height="472.5" Guides="189,198.45">
+      <TextObject Name="Text3" Left="94.5" Top="25.35" Width="66.15" Height="18.9" Text="BModel" Font="Arial, 11.25pt, style=Bold"/>
+      <TextObject Name="Bmodeltxt" Left="198.45" Top="23.35" Width="160.65" Height="28.35" CanGrow="true" CanBreak="false" Font="Arial Narrow, 11.25pt"/>
+      <TextObject Name="Text5" Left="454.6" Top="26.35" Width="66.15" Height="18.9" Text="AModel" Font="Arial, 11.25pt, style=Bold"/>
+      <TextObject Name="AModeltxt" Left="567" Top="16.9" Width="141.75" Height="28.35" CanGrow="true" CanBreak="false" Font="Arial Narrow, 11.25pt"/>
+      <TextObject Name="Text7" Left="803.25" Top="28.35" Width="47.25" Height="18.9" Text="COD" Font="Arial, 11.25pt, style=Bold"/>
+      <TextObject Name="COdate" Left="869.4" Top="16.9" Width="160.65" Height="37.8" CanGrow="true" CanBreak="false" Font="Arial Narrow, 11.25pt"/>
+      <TextObject Name="Text9" Left="9.45" Top="84.05" Width="151.2" Height="18.9" Text="Filled By Applicant" Font="Arial, 11.25pt, style=Bold"/>
+      <TextObject Name="applicanttxt" Left="198.45" Top="82.05" Width="160.65" Height="37.8" CanGrow="true" CanBreak="false" Font="Arial Narrow, 11.25pt"/>
+      <TextObject Name="Text11" Left="426.25" Top="85.05" Width="103.95" Height="18.9" Text="Filled By Pro control" Font="Arial, 11.25pt, style=Bold"/>
+      <TextObject Name="PCtxt" Left="567" Top="85.05" Width="141.75" Height="28.35" CanGrow="true" CanBreak="false" Font="Arial Narrow, 11.25pt"/>
+      <TextObject Name="Text13" Left="803.25" Top="87.05" Width="47.25" Height="18.9" Text="Dept" Font="Arial, 11.25pt, style=Bold"/>
+      <TextObject Name="Depttxt" Left="869.4" Top="85.05" Width="160.65" Height="28.35" CanGrow="true" CanBreak="false" Font="Arial Narrow, 11.25pt"/>
+      <TextObject Name="Equipmenttxt" Left="198.45" Top="160.65" Width="160.65" Height="28.35" CanGrow="true" CanBreak="false" Font="Arial Narrow, 11.25pt"/>
+      <TextObject Name="TimeofDemandtxt" Left="567" Top="160.65" Width="141.75" Height="28.35" CanGrow="true" CanBreak="false" Font="Arial Narrow, 11.25pt"/>
+      <TextObject Name="Text19" Left="756" Top="160.65" Width="103.95" Height="37.8" Text="Existing Qty" Font="Arial, 11.25pt, style=Bold"/>
+      <TextObject Name="ExistingQtytxt" Left="869.4" Top="160.65" Width="160.65" Height="28.35" CanGrow="true" CanBreak="false" Font="Arial Narrow, 11.25pt"/>
+      <TextObject Name="Text21" Left="75.6" Top="216.35" Width="75.6" Height="18.9" Text="Demand Qty" Font="Arial, 11.25pt, style=Bold"/>
+      <TextObject Name="DemandQtytxt" Left="198.45" Top="215.35" Width="160.65" Height="28.35" CanGrow="true" CanBreak="false" Font="Arial Narrow, 11.25pt"/>
+      <TextObject Name="Text23" Left="397.9" Top="217.35" Width="132.3" Height="18.9" Text="Planning Output Target" Font="Arial, 11.25pt, style=Bold"/>
+      <TextObject Name="OutputTargettxt" Left="567" Top="217.35" Width="141.75" Height="28.35" CanGrow="true" CanBreak="false" Font="Arial Narrow, 11.25pt"/>
+      <TextObject Name="Text25" Left="756" Top="219.35" Width="103.95" Height="18.9" Text="IE Standard" Font="Arial, 11.25pt, style=Bold"/>
+      <TextObject Name="IEStandardtxt" Left="869.4" Top="217.35" Width="160.65" Height="28.35" CanGrow="true" CanBreak="false" Font="Arial Narrow, 11.25pt"/>
+      <TextObject Name="Text26" Left="75.6" Top="283.5" Width="75.6" Height="18.9" Text="Transfer Dept" Font="Arial, 11.25pt, style=Bold"/>
+      <TextObject Name="TransferDepttxt" Left="198.45" Top="281.5" Width="160.65" Height="28.35" CanGrow="true" CanBreak="false" Font="Arial Narrow, 11.25pt"/>
+      <TextObject Name="Text28" Left="454.6" Top="283.5" Width="66.15" Height="18.9" Text="Remarks" Font="Arial, 11.25pt, style=Bold"/>
+      <TextObject Name="Remarkstxt" Left="567" Top="283.5" Width="141.75" Height="28.35" CanGrow="true" CanBreak="false" Font="Arial Narrow, 11.25pt"/>
+      <TextObject Name="Text30" Left="37.8" Top="351.65" Width="113.4" Height="18.9" Text="Receive Date:" Font="Arial, 11.25pt, style=Bold"/>
+      <TextObject Name="ReceiveDatetxt" Left="198.45" Top="349.65" Width="160.65" Height="28.35" CanGrow="true" CanBreak="false" Font="Arial Narrow, 11.25pt"/>
+      <TextObject Name="Text32" Left="434.7" Top="348.65" Width="94.5" Height="18.9" Text="Supervisor:" Font="Arial, 11.25pt, style=Bold"/>
+      <TextObject Name="Supervisortxt" Left="567" Top="346.65" Width="141.75" Height="28.35" CanGrow="true" CanBreak="false" Font="Arial Narrow, 11.25pt"/>
+      <TextObject Name="Text34" Left="746.55" Top="350.65" Width="113.4" Height="18.9" Text="Section Head:       " Font="Arial, 11.25pt, style=Bold"/>
+      <TextObject Name="SectionHeadtxt" Left="888.3" Top="342.2" Width="141.75" Height="28.35" CanGrow="true" CanBreak="false" Font="Arial Narrow, 11.25pt"/>
+      <TextObject Name="Text36" Left="398.3" Top="420.2" Width="151.2" Height="18.9" Text="Plant in chanrge:" Font="Arial, 11.25pt, style=Bold"/>
+      <TextObject Name="Plantinchanrgetxt" Left="566" Top="415.8" Width="141.75" Height="28.35" CanGrow="true" CanBreak="false" Font="Arial Narrow, 11.25pt"/>
+      <TextObject Name="Text37" Left="56.7" Top="425.25" Width="94.5" Height="18.9" Text="Pro.control Dept:" Font="Arial, 11.25pt, style=Bold"/>
+      <TextObject Name="Controldepttext" Left="197.45" Top="413.8" Width="160.65" Height="28.35" CanGrow="true" CanBreak="false" Font="Arial Narrow, 11.25pt"/>
+      <TextObject Name="Text39" Left="784.35" Top="417.8" Width="75.6" Height="18.9" Text="Controller:" Font="Arial, 11.25pt, style=Bold"/>
+      <TextObject Name="Controllertxt" Left="888.3" Top="409.35" Width="141.75" Height="28.35" CanGrow="true" CanBreak="false" Font="Arial Narrow, 11.25pt"/>
+      <LineObject Name="Line3" Left="378" Height="472.5" Diagonal="true"/>
+      <LineObject Name="Line4" Left="727.65" Height="472.5" Diagonal="true"/>
+      <LineObject Name="Line8" Left="170.1" Height="472.5" Diagonal="true"/>
+      <LineObject Name="Line9" Left="538.65" Height="472.5" Diagonal="true"/>
+      <LineObject Name="Line10" Left="859.95" Height="472.5" Diagonal="true"/>
+      <LineObject Name="Line11" Top="-18.9" Height="491.4" Diagonal="true"/>
+      <LineObject Name="Line12" Left="1039.5" Top="-18.9" Height="491.4" Diagonal="true"/>
+      <LineObject Name="Line17" Top="66.15" Width="1039.5" Diagonal="true"/>
+      <LineObject Name="Line18" Top="132.3" Width="1039.5" Diagonal="true"/>
+      <LineObject Name="Line20" Top="264.6" Width="1039.5" Diagonal="true"/>
+      <LineObject Name="Line21" Top="321.3" Width="1039.5" Diagonal="true"/>
+      <LineObject Name="Line22" Top="396.9" Width="1039.5" Diagonal="true"/>
+      <TextObject Name="Text40" Left="387.45" Top="160.65" Width="132.3" Height="28.35" Text="Time of Demand" Font="Arial, 11.25pt, style=Bold"/>
+      <LineObject Name="Line23" Top="198.45" Width="1039.5" Diagonal="true"/>
+      <TextObject Name="Text41" Left="37.8" Top="160.65" Width="113.4" Height="28.35" Text="Equipment" Font="Arial, 12pt, style=Bold"/>
+      <LineObject Name="Line25" Top="472.5" Width="1039.5" Diagonal="true"/>
+    </DataBand>
+  </ReportPage>
+</Report>

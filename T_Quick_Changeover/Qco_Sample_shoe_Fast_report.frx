@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="10/30/2023 10:37:21" ReportInfo.Modified="12/22/2023 16:42:54" ReportInfo.CreatorVersion="2014.4.8.0">
+  <Dictionary/>
+  <ReportPage Name="Page1" PaperWidth="250">
+    <ReportTitleBand Name="ReportTitle1" Width="869.4" Height="9.45"/>
+    <PageHeaderBand Name="PageHeader1" Top="13.45" Width="869.4" Height="75.6" Border.Lines="All">
+      <TextObject Name="SAMPLE" Left="311.85" Top="47.25" Width="245.7" Height="28.35" Text="SAMPLE SHOE ISSUING FORM" Font="Arial, 11.25pt, style=Bold"/>
+      <TextObject Name="APACHE" Left="292.95" Top="9.45" Width="311.85" Height="28.35" Border.Lines="All" Text="APACHE FOOTWEAR INDIA PVT LTD" Font="Arial, 12pt, style=Bold" TextFill.Color="OrangeRed"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="93.05" Width="869.4" Height="510.3" Border.Lines="All">
+      <TextObject Name="Date" Left="9.45" Top="36.8" Width="66.15" Height="18.9" Text="Date" Font="Trajan Pro, 9.749998pt, style=Bold"/>
+      <TextObject Name="ArticleNo" Left="9.45" Top="131.3" Width="85.05" Height="18.9" Text="Article No:" Font="Trajan Pro, 9.749998pt, style=Bold"/>
+      <TextObject Name="MCS" Left="9.45" Top="216.35" Width="160.65" Height="18.9" Text="MCS Recieving  Name" Font="Trajan Pro, 9.749998pt, style=Bold"/>
+      <TextObject Name="Planning" Left="9.45" Top="291.95" Width="198.45" Height="18.9" Text="Planning Authorised Person" Font="Trajan Pro, 9.749998pt, style=Bold"/>
+      <TextObject Name="Reason" Left="9.45" Top="358.1" Width="85.05" Height="18.9" Text="Reason:" Font="Trajan Pro, 9.749998pt, style=Bold"/>
+      <TextObject Name="Dept" Left="415.8" Top="37.8" Width="94.5" Height="18.9" Text="Dept" Font="Trajan Pro, 9.749998pt, style=Bold"/>
+      <TextObject Name="Model" Left="425.25" Top="132.3" Width="122.85" Height="18.9" Text="Model &amp; Version" Font="Trajan Pro, 9.749998pt, style=Bold"/>
+      <TextObject Name="Supervisor" Left="415.8" Top="217.35" Width="151.2" Height="18.9" Text="Supervisor Signature " Font="Trajan Pro, 9.749998pt, style=Bold"/>
+      <TextObject Name="PlantIn" Left="415.8" Top="291.95" Width="189" Height="18.9" Text="Plant In Charge Signature" Font="Trajan Pro, 9.749998pt, style=Bold"/>
+      <TextObject Name="Note" Left="9.45" Top="472.5" Width="548.1" Height="18.9" Text="NOTE: Sample shoe need to return before 4:30 PM if not respective person will punish " Font="Arial, 11.25pt, style=Bold"/>
+      <TextObject Name="Docno" Left="604.8" Top="472.5" Width="226.8" Height="18.9" Text="Doc no: APC/QMS-PLN/R04" Font="Arial, 11.25pt, style=Bold"/>
+      <TextObject Name="frdate" Left="226.8" Top="37.8" Width="141.75" Height="18.9"/>
+      <TextObject Name="frart" Left="226.8" Top="132.3" Width="141.75" Height="18.9"/>
+      <TextObject Name="frmcs" Left="226.8" Top="217.35" Width="141.75" Height="18.9"/>
+      <TextObject Name="frplanaut" Left="226.8" Top="292.95" Width="141.75" Height="18.9"/>
+      <TextObject Name="frreason" Left="226.8" Top="359.1" Width="141.75" Height="18.9"/>
+      <TextObject Name="frdept" Left="642.6" Top="37.8" Width="151.2" Height="18.9"/>
+      <TextObject Name="frmodel" Left="642.6" Top="132.3" Width="151.2" Height="18.9"/>
+      <TextObject Name="frsupsig" Left="642.6" Top="217.35" Width="151.2" Height="18.9"/>
+      <TextObject Name="frplantsig" Left="642.6" Top="292.95" Width="151.2" Height="18.9"/>
+      <LineObject Name="Line1" Top="66.15" Width="869.4"/>
+      <LineObject Name="Line2" Top="160.65" Width="869.4"/>
+      <LineObject Name="Line3" Top="264.6" Width="869.4"/>
+      <LineObject Name="Line4" Top="349.65" Width="869.4"/>
+      <LineObject Name="Line5" Top="396.9" Width="869.4"/>
+      <LineObject Name="Line6" Left="217.35" Height="396.9"/>
+      <LineObject Name="Line7" Left="406.35" Height="349.65"/>
+      <LineObject Name="Line8" Left="614.25" Height="349.65"/>
+    </DataBand>
+  </ReportPage>
+  <ReportPage Name="Page2">
+    <ReportTitleBand Name="ReportTitle2" Width="718.2" Height="47.25"/>
+    <PageHeaderBand Name="PageHeader2" Top="51.25" Width="718.2" Height="28.35"/>
+    <DataBand Name="Data2" Top="83.6" Width="718.2" Height="368.55"/>
+    <PageFooterBand Name="PageFooter1" Top="456.15" Width="718.2" Height="18.9"/>
+  </ReportPage>
+</Report>

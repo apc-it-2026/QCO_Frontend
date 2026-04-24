@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\SJeMESClient\packages\FastReport.OpenSource.2024.1.1\build\FastReport.OpenSource.props" Condition="Exists('..\SJeMESClient\packages\FastReport.OpenSource.2024.1.1\build\FastReport.OpenSource.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{883475CF-9C9B-4D5F-9FEA-39A8EDB0C4F4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>T_Quick_Changeover</RootNamespace>
+    <AssemblyName>T_Quick_Changeover</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutocompleteMenu">
+      <HintPath>D:\MES_ERP Version_Source\library\AutocompleteMenu.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoSendEmail, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\MES_ERP Version_Source\KZ_MES\AutoSendEmail\bin\Debug\AutoSendEmail.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>..\SJeMES_Framework\bin\Debug\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="ClosedXML, Version=0.69.1.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\MES_ERP Version_Source\KZ_MES\AutoSendEmail\bin\Debug\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="CSkin">
+      <HintPath>D:\MPS Client Sourcecode\WorkingIEAchievementInput\bin\Debug\CSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport, Version=2014.4.8.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Fast Report\FastReport.Net V2014.4.8 For .Net2.0\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Bars, Version=2014.4.8.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\WMS\KZ_WMS\F_WMS_Production_Picking\bin\Debug\FastReport.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="GDSJ_Framework, Version=1.2.1.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\WMS\KZ_WMS\F_WMS_Production_Picking\bin\Debug\GDSJ_Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSkin">
+      <HintPath>..\SJeMES_Framework\bin\Debug\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>D:\MES_ERP Version_Source\KZ_MES\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="MiniExcel">
+      <HintPath>D:\MPS Client Sourcecode\WorkingIEAchievementInput\bin\Debug\MiniExcel.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\SJeMES_Framework\bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="NewExportExcels">
+      <HintPath>D:\MPS Client Sourcecode\WorkingIEAchievementInput\bin\Debug\NewExportExcels.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SJeMESClient\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\T_Quick_Changeover_Main\bin\Debug\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML">
+      <HintPath>..\T_Quick_Changeover_Main\bin\Debug\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net">
+      <HintPath>..\T_Quick_Changeover_Main\bin\Debug\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats">
+      <HintPath>..\T_Quick_Changeover_Main\bin\Debug\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="SJeMES_Control_Library, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SJeMES_Control_Library\bin\Debug\SJeMES_Control_Library.dll</HintPath>
+    </Reference>
+    <Reference Include="SJeMES_Framework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SJeMES_Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="SJeMES_Framework_NETCore">
+      <HintPath>D:\MES_ERP Version_Source\library\SJeMES_Framework_NETCore.dll</HintPath>
+    </Reference>
+    <Reference Include="SJeMES_Report">
+      <HintPath>..\SJeMESClient\bin\Debug\SJeMES_Report.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing.Common, Version=4.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\SJeMESClient\packages\System.Drawing.Common.4.7.0\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\qcoo\qcoo\bin\Debug\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\SJeMESClient\packages\System.Runtime.CompilerServices.Unsafe.4.7.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.AccessControl, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\SJeMESClient\packages\System.Security.AccessControl.4.5.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Pkcs, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\SJeMESClient\packages\System.Security.Cryptography.Pkcs.4.7.0\lib\net461\System.Security.Cryptography.Pkcs.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Permissions, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\SJeMESClient\packages\System.Security.Permissions.4.5.0\lib\net461\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\SJeMESClient\packages\System.Security.Principal.Windows.4.5.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Text.Encoding.CodePages, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\SJeMESClient\packages\System.Text.Encoding.CodePages.4.7.0\lib\net461\System.Text.Encoding.CodePages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assembly_checklist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assembly_checklist.Designer.cs">
+      <DependentUpon>Assembly_checklist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="excel.cs" />
+    <Compile Include="ExcelProcessor.cs" />
+    <Compile Include="FastReportHelper.cs" />
+    <Compile Include="QCO_Checklist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QCO_Checklist.Designer.cs">
+      <DependentUpon>QCO_Checklist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QCO_Upload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QCO_Upload.Designer.cs">
+      <DependentUpon>QCO_Upload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MailUtil.cs" />
+    <Compile Include="QCO_FileUpload_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QCO_FileUpload_Add.Designer.cs">
+      <DependentUpon>QCO_FileUpload_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QCO_Get_Signatures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QCO_Get_Signatures.Designer.cs">
+      <DependentUpon>QCO_Get_Signatures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QCO_View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QCO_View.Designer.cs">
+      <DependentUpon>QCO_View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stitching_Checklist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stitching_Checklist.Designer.cs">
+      <DependentUpon>Stitching_Checklist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="T_Preventive_Measures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="T_Preventive_Measures.Designer.cs">
+      <DependentUpon>T_Preventive_Measures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="T_QCO_Checklist2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="T_QCO_Checklist2.Designer.cs">
+      <DependentUpon>T_QCO_Checklist2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="T_QCO_Equipment_Fastreport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="T_QCO_Equipment_Fastreport.designer.cs">
+      <DependentUpon>T_QCO_Equipment_Fastreport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="T_QCO_FR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="T_QCO_FR.designer.cs">
+      <DependentUpon>T_QCO_FR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="T_QCO_Fastreport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="T_QCO_Fastreport.designer.cs">
+      <DependentUpon>T_QCO_Fastreport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QCO_Prop.cs" />
+    <Compile Include="T_QCO_COT_COPT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="T_QCO_COT_COPT.Designer.cs">
+      <DependentUpon>T_QCO_COT_COPT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="T_QCO_Equipment_Request.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="T_QCO_Equipment_Request.Designer.cs">
+      <DependentUpon>T_QCO_Equipment_Request.cs</DependentUpon>
+    </Compile>
+    <Compile Include="T_QCO_Ex_app_t_fileUpload_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="T_QCO_Ex_app_t_fileUpload_add.Designer.cs">
+      <DependentUpon>T_QCO_Ex_app_t_fileUpload_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="T_QCO_Ex_app_t_fileUpload_view.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="T_QCO_Ex_app_t_fileUpload_view.Designer.cs">
+      <DependentUpon>T_QCO_Ex_app_t_fileUpload_view.cs</DependentUpon>
+    </Compile>
+    <Compile Include="T_QCO_RAMP_UP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="T_QCO_RAMP_UP.Designer.cs">
+      <DependentUpon>T_QCO_RAMP_UP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="T_QCO_SampleShoe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="T_QCO_SampleShoe.Designer.cs">
+      <DependentUpon>T_QCO_SampleShoe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="T_QCO_Schedule_PlanImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="T_QCO_Schedule_PlanImport.Designer.cs">
+      <DependentUpon>T_QCO_Schedule_PlanImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="T_QCO_MAIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="T_QCO_MAIN.Designer.cs">
+      <DependentUpon>T_QCO_MAIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="T_QCO_Schedule_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="T_QCO_Schedule_Report.Designer.cs">
+      <DependentUpon>T_QCO_Schedule_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="T_QCO_SOP_Require.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="T_QCO_SOP_Require.Designer.cs">
+      <DependentUpon>T_QCO_SOP_Require.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Unplanned_Changeover.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unplanned_Changeover.Designer.cs">
+      <DependentUpon>Unplanned_Changeover.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Assembly_checklist.resx">
+      <DependentUpon>Assembly_checklist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QCO_Checklist.resx">
+      <DependentUpon>QCO_Checklist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QCO_Upload.resx">
+      <DependentUpon>QCO_Upload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QCO_FileUpload_Add.resx">
+      <DependentUpon>QCO_FileUpload_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QCO_Get_Signatures.resx">
+      <DependentUpon>QCO_Get_Signatures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QCO_View.resx">
+      <DependentUpon>QCO_View.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stitching_Checklist.resx">
+      <DependentUpon>Stitching_Checklist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="T_Preventive_Measures.resx">
+      <DependentUpon>T_Preventive_Measures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="T_QCO_Checklist2.resx">
+      <DependentUpon>T_QCO_Checklist2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="T_QCO_Equipment_Fastreport.resx">
+      <DependentUpon>T_QCO_Equipment_Fastreport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="T_QCO_FR.resx">
+      <DependentUpon>T_QCO_FR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="T_QCO_Fastreport.resx">
+      <DependentUpon>T_QCO_Fastreport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="T_QCO_COT_COPT.resx">
+      <DependentUpon>T_QCO_COT_COPT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="T_QCO_Equipment_Request.resx">
+      <DependentUpon>T_QCO_Equipment_Request.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="T_QCO_Ex_app_t_fileUpload_add.resx">
+      <DependentUpon>T_QCO_Ex_app_t_fileUpload_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="T_QCO_Ex_app_t_fileUpload_view.resx">
+      <DependentUpon>T_QCO_Ex_app_t_fileUpload_view.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="T_QCO_MAIN.resx">
+      <DependentUpon>T_QCO_MAIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="T_QCO_RAMP_UP.resx">
+      <DependentUpon>T_QCO_RAMP_UP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="T_QCO_SampleShoe.resx">
+      <DependentUpon>T_QCO_SampleShoe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="T_QCO_Schedule_PlanImport.resx">
+      <DependentUpon>T_QCO_Schedule_PlanImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="T_QCO_Schedule_Report.resx">
+      <DependentUpon>T_QCO_Schedule_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="T_QCO_SOP_Require.resx">
+      <DependentUpon>T_QCO_SOP_Require.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unplanned_Changeover.resx">
+      <DependentUpon>Unplanned_Changeover.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apc_logoo-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BUTTON.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BUTTON1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checklist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maintenance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qco ti2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qco titl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\regulation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\running-shoe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\schedule.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\side bav bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Fastreport\" />
+    <Folder Include="FileUploads\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_select_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_select_file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_select_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_update_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_delete_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\digital_sign-uvNWiEUlW-transformed.png" />
+    <None Include="Resources\dashboard-monitoring-icon.png" />
+    <Content Include="Resources\LoginQCO-transformed.png" />
+    <None Include="Resources\LoginQCO-transformed1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\SJeMESClient\packages\FastReport.OpenSource.2024.1.1\build\FastReport.OpenSource.props')" Text="$([System.String]::Format('$(ErrorText)', '..\SJeMESClient\packages\FastReport.OpenSource.2024.1.1\build\FastReport.OpenSource.props'))" />
+  </Target>
+</Project>

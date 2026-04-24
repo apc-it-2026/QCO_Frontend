@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="10/31/2023 08:55:30" ReportInfo.Modified="10/31/2023 12:12:59" ReportInfo.CreatorVersion="2014.4.8.0">
+  <Dictionary/>
+  <ReportPage Name="Page1" PaperWidth="250">
+    <ReportTitleBand Name="ReportTitle1" Width="869.4"/>
+    <PageHeaderBand Name="PageHeader1" Top="4" Width="869.4" Height="47.25" Border.Lines="All">
+      <TextObject Name="SOPfrm" Left="283.5" Top="9.45" Width="302.4" Height="18.9" Text="Production SOP Require Form" Font="Arial, 14.25pt, style=Bold"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="55.25" Width="869.4" Height="548.1" Border.Lines="All">
+      <TextObject Name="Dept" Left="94.5" Top="18.9" Width="66.15" Height="18.9" Text="Dept  :" Font="Arial, 12pt, style=Bold"/>
+      <TextObject Name="Model" Left="94.5" Top="85.05" Width="75.6" Height="18.9" Text="Model  :" Font="Arial, 12pt, style=Bold"/>
+      <TextObject Name="Article" Left="94.5" Top="151.2" Width="75.6" Height="18.9" Text="Article  :" Font="Arial, 12pt, style=Bold"/>
+      <TextObject Name="SOPPer" Left="94.5" Top="207.9" Width="207.9" Height="18.9" Text="SOP borrowing person  :" Font="Arial, 12pt, style=Bold"/>
+      <TextObject Name="reason" Left="94.5" Top="264.6" Width="217.35" Height="18.9" Text="Special Situation reason  :" Font="Arial, 12pt, style=Bold"/>
+      <TextObject Name="Date" Left="481.95" Top="18.9" Width="66.15" Height="18.9" Text="Date  :" Font="Arial, 12pt, style=Bold"/>
+      <TextObject Name="Version" Left="576.45" Top="85.05" Width="85.05" Height="18.9" Text="Version  :" Font="Arial, 12pt, style=Bold"/>
+      <TextObject Name="JointSign" Left="94.5" Top="463.05" Width="94.5" Height="18.9" Text="Joint Sign  :" Font="Arial, 9.75pt, style=Bold"/>
+      <TextObject Name="BC" Left="585.9" Top="207.9" Width="47.25" Height="18.9" Text="BC :" Font="Arial, 12pt, style=Bold"/>
+      <TextObject Name="Text11" Left="94.5" Top="378" Width="548.1" Height="37.8" Text="1.SOP require report should be filled with all details(i.e, version,related signs)" Font="Arial, 9.75pt, style=Bold"/>
+      <TextObject Name="Text12" Left="94.5" Top="415.8" Width="548.1" Height="18.9" Text="2.SOP's require report should submit to Technical before 11:30 a.m of before Day" Font="Arial, 9.75pt, style=Bold"/>
+      <TextObject Name="borrowerSign" Left="340.2" Top="463.05" Width="151.2" Height="18.9" Text="SOP borrower Sign  :" Font="Arial, 9.75pt, style=Bold"/>
+      <TextObject Name="Supsign" Left="633.15" Top="463.05" Width="94.5" Height="18.9" Text="Sup Sign  :" Font="Arial, 9.75pt, style=Bold"/>
+      <TextObject Name="apcQMS" Left="699.3" Top="519.75" Width="141.75" Height="18.9" Text="APC/QMS-TCH/R15" Font="Arial, 9.75pt, style=Bold"/>
+      <LineObject Name="Line3" Top="189" Width="869.4"/>
+      <LineObject Name="Line4" Top="245.7" Width="869.4"/>
+      <LineObject Name="Line5" Top="359.1" Width="869.4"/>
+      <LineObject Name="Line6" Left="179.55" Top="189" Height="-189"/>
+      <LineObject Name="Line7" Left="567" Height="56.7"/>
+      <LineObject Name="Line8" Left="567" Top="189" Height="56.7"/>
+      <LineObject Name="Line9" Left="567" Top="56.7" Height="66.15"/>
+      <LineObject Name="Line10" Left="661.5" Top="189" Height="56.7"/>
+      <LineObject Name="Line11" Left="661.5" Top="56.7" Height="66.15"/>
+      <LineObject Name="Line12" Left="311.85" Top="189" Height="56.7"/>
+      <LineObject Name="Line13" Top="122.85" Width="869.4"/>
+      <LineObject Name="Line14" Top="56.7" Width="869.4"/>
+      <LineObject Name="Line15" Left="481.95" Height="56.7"/>
+      <TextObject Name="frdate" Left="595.35" Top="18.9" Width="141.75" Height="18.9"/>
+      <TextObject Name="frdept" Left="245.7" Top="18.9" Width="94.5" Height="18.9"/>
+      <TextObject Name="frmodel" Left="245.7" Top="85.05" Width="94.5" Height="18.9"/>
+      <TextObject Name="frarticle" Left="245.7" Top="151.2" Width="94.5" Height="18.9"/>
+      <TextObject Name="frsop1" Left="359.1" Top="207.9" Width="94.5" Height="18.9"/>
+      <TextObject Name="frreason" Left="359.1" Top="264.6" Width="349.65" Height="75.6"/>
+      <TextObject Name="frversion" Left="699.3" Top="85.05" Width="94.5" Height="18.9"/>
+      <TextObject Name="frbc" Left="699.3" Top="207.9" Width="94.5" Height="18.9"/>
+      <TextObject Name="frjoint" Left="217.35" Top="463.05" Width="94.5" Height="18.9"/>
+      <TextObject Name="frsopsign" Left="510.3" Top="463.05" Width="94.5" Height="18.9"/>
+      <TextObject Name="frsup" Left="746.55" Top="463.05" Width="94.5" Height="18.9"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="607.35" Width="869.4" Height="56.7"/>
+  </ReportPage>
+</Report>

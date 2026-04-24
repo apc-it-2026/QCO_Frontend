@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="09/05/2024 09:10:15" ReportInfo.Modified="02/10/2025 11:08:06" ReportInfo.CreatorVersion="2014.4.8.0">
+  <Dictionary/>
+  <ReportPage Name="Page1" PaperWidth="340" PaperHeight="280">
+    <ReportTitleBand Name="ReportTitle1" Width="1209.6" Height="28.35">
+      <TextObject Name="Title" Left="491.4" Width="330.75" Height="18.9" Text="Apache Foot Wear Ind Pvt Ltd" Font="Times New Roman, 15.75pt, style=Bold"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="32.35" Width="1209.6" Height="28.35">
+      <TextObject Name="heading" Left="500.85" Width="274.05" Height="18.9" Text="Model Change Over Checklist in Assembly" Font="Times New Roman, 14.25pt, style=Bold"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="64.7" Width="1209.6" Height="793.8" Border.Lines="All">
+      <TextObject Name="Text1" Left="9.45" Top="56.7" Width="94.5" Height="18.9" Text="Model From:" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text2" Left="292.95" Top="94.5" Width="103.95" Height="18.9" Text="Article Number:" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text3" Left="151.2" Top="56.7" Width="122.85" Height="18.9"/>
+      <TextObject Name="Text4" Left="406.35" Top="94.5" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text5" Left="292.95" Top="9.45" Width="94.5" Height="18.9" Text="Dept:" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text6" Left="292.95" Top="56.7" Width="94.5" Height="18.9" Text="To:" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text7" Left="406.35" Top="9.45" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text8" Left="406.35" Top="56.7" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text9" Left="538.65" Top="9.45" Width="160.65" Height="18.9" Text="Plan Change over Date:" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text10" Left="538.65" Top="56.7" Width="160.65" Height="18.9" Text="Actual Change over date::" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text11" Left="718.2" Top="9.45" Width="122.85" Height="18.9"/>
+      <TextObject Name="Text12" Left="718.2" Top="56.7" Width="122.85" Height="18.9"/>
+      <TextObject Name="Text13" Left="878.85" Top="9.45" Width="94.5" Height="18.9" Text="Select Plans:" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text14" Left="878.85" Top="56.7" Width="103.95" Height="18.9" Text="Delay Reason:" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text15" Left="992.25" Top="9.45" Width="122.85" Height="18.9"/>
+      <TextObject Name="Text16" Left="992.25" Top="56.7" Width="122.85" Height="18.9"/>
+      <TextObject Name="Text17" Left="538.65" Top="94.5" Width="160.65" Height="18.9" Text="Change Over Type:" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text18" Left="718.2" Top="94.5" Width="122.85" Height="18.9"/>
+      <TextObject Name="Text19" Left="9.45" Top="9.45" Width="122.85" Height="28.35" Text="QCO Sequence:" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text20" Left="151.2" Top="9.45" Width="122.85" Height="18.9"/>
+      <LineObject Name="Line2" Top="160.65" Width="1209.6"/>
+      <LineObject Name="Line3" Left="113.4" Top="122.85" Height="444.15" Diagonal="true"/>
+      <TextObject Name="Text21" Top="132.3" Width="103.95" Height="18.9" Text="Inspecting time" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text22" Left="122.85" Top="132.3" Width="37.8" Height="18.9" Text="Item" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text23" Left="217.35" Top="132.3" Width="75.6" Height="18.9" Text="Content" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text24" Left="463.05" Top="132.3" Width="141.75" Height="18.9" Text="Responsible persons" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text25" Left="652.05" Top="132.3" Width="245.7" Height="18.9" Text="Condition:-&quot;√&quot;:normal or &quot;×&quot;:abnormal" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text26" Left="1001.7" Top="132.3" Width="94.5" Height="18.9" Text="Remark" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text27" Left="170.1" Top="179.55" Width="236.25" Height="18.9" Text="Line layout for new model" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text28" Left="170.1" Top="217.35" Width="236.25" Height="18.9" Text=" Value Stream Map" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text29" Left="170.1" Top="255.15" Width="236.25" Height="18.9" Text="Required manpower/skill training" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text30" Left="170.1" Top="292.95" Width="236.25" Height="18.9" Text="Machine Inspection" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text31" Left="170.1" Top="340.2" Width="236.25" Height="18.9" Text="CTPQ&amp;CTPO" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text32" Left="171.1" Top="387.45" Width="236.25" Height="18.9" Text="Material&amp;Lasting Mold" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text33" Left="170.1" Top="434.7" Width="236.25" Height="18.9" Text="Gauge Marking Pattern" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text34" Left="170.1" Top="491.4" Width="236.25" Height="18.9" Text="Sample Shoe, SOP, procedure SOP" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text35" Left="170.1" Top="538.65" Width="236.25" Height="18.9" Text="Cement, primer." Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text36" Left="132.3" Top="179.55" Width="18.9" Height="18.9" Text="1" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text37" Left="132.3" Top="217.35" Width="18.9" Height="18.9" Text="2" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text38" Left="132.3" Top="255.15" Width="18.9" Height="18.9" Text="3" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text39" Left="132.3" Top="292.95" Width="18.9" Height="18.9" Text="4" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text40" Left="132.3" Top="340.2" Width="18.9" Height="18.9" Text="5" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text41" Left="133.3" Top="387.45" Width="18.9" Height="18.9" Text="6" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text42" Left="132.3" Top="434.7" Width="18.9" Height="18.9" Text="7" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text43" Left="132.3" Top="491.4" Width="18.9" Height="18.9" Text="8" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text44" Left="132.3" Top="538.65" Width="18.9" Height="18.9" Text="9" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text45" Left="434.7" Top="179.55" Width="189" Height="18.9" Text="IE" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text46" Left="434.7" Top="217.35" Width="189" Height="18.9" Text="IE" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text47" Left="434.7" Top="255.15" Width="189" Height="18.9" Text="Supervisor/Technition" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text48" Left="434.7" Top="292.95" Width="189" Height="18.9" Text="Maintenance/PC" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text49" Left="434.7" Top="340.2" Width="189" Height="18.9" Text="QIP/Technical" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text50" Left="435.7" Top="387.45" Width="189" Height="18.9" Text="Production control" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text51" Left="434.7" Top="434.7" Width="189" Height="18.9" Text="Water spider/Technical" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text52" Left="434.7" Top="491.4" Width="189" Height="18.9" Text="Water spider/Technical/PC" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text53" Left="434.7" Top="538.65" Width="189" Height="18.9" Text="Water spider/Chemical opr " Font="Times New Roman, 12pt"/>
+      <CheckBoxObject Name="CheckBox1" Left="670.95" Top="179.55" Width="18.9" Height="18.9"/>
+      <CheckBoxObject Name="CheckBox2" Left="746.55" Top="179.55" Width="18.9" Height="18.9"/>
+      <CheckBoxObject Name="CheckBox3" Left="670.95" Top="217.35" Width="18.9" Height="18.9"/>
+      <CheckBoxObject Name="CheckBox4" Left="746.55" Top="217.35" Width="18.9" Height="18.9"/>
+      <CheckBoxObject Name="CheckBox5" Left="670.95" Top="255.15" Width="18.9" Height="18.9"/>
+      <CheckBoxObject Name="CheckBox6" Left="746.55" Top="255.15" Width="18.9" Height="18.9"/>
+      <CheckBoxObject Name="CheckBox7" Left="670.95" Top="292.95" Width="18.9" Height="18.9"/>
+      <CheckBoxObject Name="CheckBox8" Left="746.55" Top="292.95" Width="18.9" Height="18.9"/>
+      <CheckBoxObject Name="CheckBox9" Left="670.95" Top="340.2" Width="18.9" Height="18.9"/>
+      <CheckBoxObject Name="CheckBox10" Left="746.55" Top="340.2" Width="18.9" Height="18.9"/>
+      <CheckBoxObject Name="CheckBox11" Left="671.95" Top="387.45" Width="18.9" Height="18.9"/>
+      <CheckBoxObject Name="CheckBox12" Left="747.55" Top="387.45" Width="18.9" Height="18.9"/>
+      <CheckBoxObject Name="CheckBox13" Left="670.95" Top="434.7" Width="18.9" Height="18.9"/>
+      <CheckBoxObject Name="CheckBox14" Left="746.55" Top="434.7" Width="18.9" Height="18.9"/>
+      <CheckBoxObject Name="CheckBox15" Left="670.95" Top="491.4" Width="18.9" Height="18.9"/>
+      <CheckBoxObject Name="CheckBox16" Left="746.55" Top="491.4" Width="18.9" Height="18.9"/>
+      <CheckBoxObject Name="CheckBox17" Left="670.95" Top="538.65" Width="18.9" Height="18.9"/>
+      <CheckBoxObject Name="CheckBox18" Left="746.55" Top="538.65" Width="18.9" Height="18.9"/>
+      <TextObject Name="Text54" Left="841.05" Top="179.55" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text55" Left="954.45" Top="179.55" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text56" Left="841.05" Top="217.35" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text57" Left="954.45" Top="217.35" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text58" Left="841.05" Top="255.15" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text59" Left="954.45" Top="255.15" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text60" Left="841.05" Top="292.95" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text61" Left="954.45" Top="292.95" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text62" Left="841.05" Top="340.2" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text63" Left="954.45" Top="340.2" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text64" Left="842.05" Top="387.45" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text65" Left="954.45" Top="387.45" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text66" Left="841.05" Top="434.7" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text67" Left="954.45" Top="434.7" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text68" Left="841.05" Top="491.4" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text69" Left="954.45" Top="491.4" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text70" Left="841.05" Top="538.65" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text71" Left="954.45" Top="538.65" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text72" Left="1067.85" Top="179.55" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text73" Left="1067.85" Top="217.35" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text74" Left="1067.85" Top="255.15" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text75" Left="1067.85" Top="292.95" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text76" Left="1067.85" Top="340.2" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text77" Left="1067.85" Top="387.45" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text78" Left="1067.85" Top="434.7" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text79" Left="1067.85" Top="491.4" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text80" Left="1067.85" Top="538.65" Width="103.95" Height="18.9"/>
+      <LineObject Name="Line4" Top="406.35" Width="113.4"/>
+      <TextObject Name="Text83" Top="226.8" Width="103.95" Height="56.7" Text="4 days earlier than produnction" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text84" Top="491.4" Width="103.95" Height="56.7" Text="3 days earlier than produnction" Font="Times New Roman, 12pt"/>
+      <LineObject Name="Line5" Top="576.45" Width="1209.6"/>
+      <LineObject Name="Line6" Top="614.25" Width="1209.6"/>
+      <TextObject Name="Text85" Left="9.45" Top="585.9" Width="122.85" Height="18.9" Text="Observing person:" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text86" Left="151.2" Top="585.9" Width="75.6" Height="18.9" Text="Signatures:    " Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text87" Left="510.3" Top="585.9" Width="113.4" Height="18.9" Text="Problems" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text90" Left="916.65" Top="585.9" Width="170.1" Height="18.9" Text="Sup/Vice Manager" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text91" Left="18.9" Top="633.15" Width="103.95" Height="18.9" Text="Section Head" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text93" Left="18.9" Top="680.4" Width="103.95" Height="18.9" Text="PC" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text95" Left="18.9" Top="727.65" Width="103.95" Height="18.9" Text="Technical" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text97" Left="18.9" Top="765.45" Width="103.95" Height="18.9" Text="Maintenance" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text99" Left="368.55" Top="633.15" Width="406.35" Height="103.95"/>
+      <TextObject Name="Text100" Left="878.85" Top="642.6" Width="47.25" Height="18.9" Text="COT" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text101" Left="992.25" Top="642.6" Width="103.95" Height="18.9"/>
+      <TextObject Name="Text102" Left="878.85" Top="699.3" Width="47.25" Height="18.9" Text="CPOT" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text103" Left="992.25" Top="699.3" Width="103.95" Height="18.9"/>
+      <PictureObject Name="SECHEAD_NAME" Left="151.2" Top="633.15" Width="141.75" Height="28.35" Border.Lines="Top"/>
+      <PictureObject Name="PC_NAME" Left="151.2" Top="680.4" Width="141.75" Height="28.35" Border.Lines="Top"/>
+      <PictureObject Name="TECHNICAL_NAME" Left="151.2" Top="727.65" Width="141.75" Height="28.35" Border.Lines="Top"/>
+      <PictureObject Name="MAINTENANCE_NAME" Left="151.2" Top="765.45" Width="141.75" Height="28.35" Border.Lines="Top"/>
+      <LineObject Name="Line7" Top="122.85" Width="1209.6"/>
+      <TextObject Name="Text104" Left="878.85" Top="737.1" Width="47.25" Height="18.9" Text="RUT" Font="Times New Roman, 12pt"/>
+      <TextObject Name="Text105" Left="992.25" Top="737.1" Width="103.95" Height="18.9"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="862.5" Width="1209.6" Height="47.25"/>
+  </ReportPage>
+</Report>
